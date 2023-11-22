@@ -1,5 +1,28 @@
 {
+  "name": "Anvat-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhb2000148/B2000148_NguyenTruongTThanh.git"
+  },
+  "author": "B2000148 Nguyentruongthanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhb2000148/B2000148_NguyenTruongTThanh.git"
+  },
+  "homepage": "https://github.com/thanhb2000148/B2000148_NguyenTruongTThanh.git",
   "dependencies": {
-    "mongodb": "^6.3.0"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
