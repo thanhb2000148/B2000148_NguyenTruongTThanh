@@ -1,5 +1,7 @@
+<!--Trang chủ video -->
 <template>
    <div class="row">
+      <!--tạo 1 frame iframe để nhúng một video từ YouTube-->
       <iframe
         width="560"
         height="315"
@@ -87,7 +89,8 @@ export default {
          );
       },
    },
-
+   
+   // Định dạng videolink
    created() {
       this.getAllProduct();
    },
